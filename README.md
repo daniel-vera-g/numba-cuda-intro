@@ -9,8 +9,11 @@
 
 ## Setup
 
-1. Create environment and install dependencies: `conda env create --name parallel_computing -f environment.yml`
-2. Activate: `conda activate parallel_computing`
+1. Create environment and install dependencies: `conda env create --name parallele -f environment.yml`
+
+If this step makes problems, just omit the `-f environment.yml` and install the necessary dependencies: `conda install numba numpy jupyter jupyter-lab`(After activating the environment)
+
+2. Activate: `conda activate parallele`
 3. Start jupyter lab: `jupyter-lab`
 4. Have fun!
 
