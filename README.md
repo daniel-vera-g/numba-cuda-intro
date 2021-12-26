@@ -1,5 +1,7 @@
 # Numba CUDA intro
 
+- GITHUB: https://github.com/daniel-vera-g/numba-cuda-intro
+
 > Short Numba CUDA tutorial for the parallel computing class at the HKA
 
 ## Requirements
