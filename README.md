@@ -4,6 +4,8 @@
 
 > Numba CUDA tutorial for the parallel computing class at the HKA
 
+_TLDR; 👉_: [Online Quickstart](https://github.com/daniel-vera-g/numba-cuda-intro/blob/master/numba_cuda_tutorial.ipynb)
+
 ## Requirements
 
 1. Python with at least [`miniconda`](https://docs.conda.io/en/latest/miniconda.html) installed
@@ -23,6 +25,15 @@
 
 - To save newly installed dependencies, run `conda env export > environment.yml`
 - If you don't have a CUDA capable GPU, you can activate the _simulation_ mode by starting Jupyter Lab with the `NUMBA_ENABLE_CUDASIM=1` ENV: `NUMBA_ENABLE_CUDASIM=1 jupyter-lab`
+
+## Contents
+
+- [Basics](./numba_cuda_tutorial.ipynb)
+
+**CUDA concepts in Numba:**
+
+- What Kernels are and how they work: [Kernels](kernels.ipynb)
+- How to manage memory when doing operations: [Memory management](memory-management.ipynb)
 
 ## References
 
