@@ -15,16 +15,16 @@ _TLDR; 👉_: [Online Quickstart](https://github.com/daniel-vera-g/numba-cuda-in
 
 1. Create an environment and install the dependencies: `conda env create --name parallele -f environment.yml`
 
-> **NOTE**: If this step makes problems, just omit the `-f environment.yml` and install the necessary dependencies manually after activating the environment: `conda install numba numpy jupyter jupyter-lab`
+> **NOTE**: If this step makes problems, just omit the `-f environment.yml` and install the necessary dependencies manually after activating the environment: `conda install numba numpy jupyter jupyter-notebook`
 
 2. If not already done, activate the environment: `conda activate parallele`
-3. Start jupyter lab: `jupyter-lab`
+3. Start jupyter lab: `jupyter-notebook`
 4. Done ✅. Open Jupyter Lab in the Browser by clicking the link shown in the output.
 
 ### Additional notes
 
 - To save newly installed dependencies, run `conda env export > environment.yml`
-- If you don't have a CUDA capable GPU, you can activate the _simulation_ mode by starting Jupyter Lab with the `NUMBA_ENABLE_CUDASIM=1` ENV: `NUMBA_ENABLE_CUDASIM=1 jupyter-lab`
+- If you don't have a CUDA capable GPU, you can activate the _simulation_ mode by starting Jupyter Lab with the `NUMBA_ENABLE_CUDASIM=1` ENV: `NUMBA_ENABLE_CUDASIM=1 jupyter-notebook`
 
 ## Contents
 
