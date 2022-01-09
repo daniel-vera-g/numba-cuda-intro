@@ -1,5 +1,7 @@
 # Numba CUDA intro
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/daniel-vera-g/numba-cuda-intro]
+
 - **GITHUB: https://github.com/daniel-vera-g/numba-cuda-intro**
 
 > Numba CUDA tutorial for the parallel computing class at the HKA
