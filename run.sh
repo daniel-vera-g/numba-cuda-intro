@@ -6,7 +6,7 @@ shell_name=`basename $SHELL`
 eval "$(conda shell.$shell_name hook)"
 
 if ! conda env list | grep -q "^parallele"; then
-  conda env create --name parallele && \
+  conda create --name parallele && \
     echo "Created the 'parallele' environment" && \
     conda install numba numpy jupyter jupyter-notebook && \
     echo "Installed numba, numpy, jupyter, and jupyter-notebook...Proceeding with notebook setup" && \
