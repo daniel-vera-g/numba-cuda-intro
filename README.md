@@ -7,6 +7,14 @@
 1. _TLDR; 👉_: [Online Quickstart](https://github.com/daniel-vera-g/numba-cuda-intro/blob/master/numba_cuda_tutorial.ipynb)
 2. Explore in online editor(Google account needed to run 💡): [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/daniel-vera-g/numba-cuda-intro)
 
+---
+
+1. [Requirements](#requirements)
+2. [Setup](#setup)
+   - [Additional notes](#additional-notes)
+3. [Contents](#contents)
+4. [References](#references)
+
 ## Requirements
 
 1. Python 3 with at least [`miniconda`](https://docs.conda.io/en/latest/miniconda.html) installed
@@ -14,15 +22,19 @@
 
 ## Setup
 
-> For an automated setup, simply execute `./run.sh`
+**Automated:**
+
+1. Create conda environment and install packages if needed: `./run.sh`
+2. Same as above and start jupyter notebook: `./run.sh --jupyter`
+
+**Manual:**
 
 1. Create an environment and install the dependencies: `conda env create --name parallele -f environment.yml`
 
-> **NOTE**: If this step makes problems, just omit the `-f environment.yml` and install the necessary dependencies manually after activating the environment: `conda install numba numpy jupyter jupyter-notebook`
+> **NOTE**: If this step makes problems, just omit the `-f environment.yml` and install the necessary dependencies manually after activating the environment: `conda install numba numpy jupyterlab`
 
 2. If not already done, activate the environment: `conda activate parallele`
 3. Start jupyter notebook: `jupyter-notebook`
-4. Done ✅. Open Jupyter notebook in the Browser by clicking the link shown in the output.
 
 ### Additional notes
 
@@ -31,12 +43,14 @@
 
 ## Contents
 
-- [Basics](./numba_cuda_tutorial.ipynb)
+- [Basics](./cuda-notebook/numba_cuda_tutorial.ipynb)
 
 **CUDA concepts in Numba:**
 
-- What Kernels are and how they work: [Kernels](kernels.ipynb)
-- How to manage memory when doing operations: [Memory management](memory-management.ipynb)
+- What Kernels are and how they work: [Kernels](./cuda-notebook/kernels.ipynb)
+- How to manage memory when doing operations: [Memory management](./cuda-notebook/memory-management.ipynb)
+- How to debug Numba code: [Debugging](./cuda-notebook/cuda-debugger.ipynb)
+- Other useful CUDA features in Numba: [Other Numba features](./cuda-notebook/other-cuda-features.ipynb)
 
 ## References
 
