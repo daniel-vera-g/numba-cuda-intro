@@ -4,7 +4,7 @@
 >
 > **Up to date version: https://github.com/daniel-vera-g/numba-cuda-intro**
 
-1. _TLDR; 👉_: [Online Quickstart](https://github.com/daniel-vera-g/numba-cuda-intro/blob/master/numba_cuda_tutorial.ipynb)
+1. _TLDR; 👉_: [Online Quickstart](https://github.com/daniel-vera-g/numba-cuda-intro/blob/master/cuda-notebook/numba_cuda_tutorial.ipynb)
 2. Explore in online editor(Google account needed to run 💡): [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/daniel-vera-g/numba-cuda-intro)
 
 ---
